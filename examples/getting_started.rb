@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'exponent-server-sdk'
+require 'exponent-server-sdk-jm'
 
 class Test
   def initialize

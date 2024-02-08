@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 require 'minitest/autorun'
-require 'exponent-server-sdk'
-require 'exponent-server-sdk/too_many_messages_error'
+require 'exponent-server-sdk-jm'
+require 'exponent-server-sdk-jm/too_many_messages_error'
 
 class ExponentServerSdkTest < Minitest::Test
   def setup
