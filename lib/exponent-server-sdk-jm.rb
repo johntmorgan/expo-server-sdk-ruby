@@ -83,7 +83,7 @@ module Exponent
       end
 
       def push_url
-        'https://exp.host/--/api/v2/push/send'
+        'https://exp.host/--/api/v2/push/send?useFcmV1=true'
       end
 
       def get_receipts(receipt_ids)
@@ -96,7 +96,7 @@ module Exponent
       end
 
       def receipts_url
-        'https://exp.host/--/api/v2/push/getReceipts'
+        'https://exp.host/--/api/v2/push/getReceipts?useFcmV1=true'
       end
 
       def headers
